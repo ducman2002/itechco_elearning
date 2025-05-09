@@ -1,0 +1,26 @@
+@import "normalize.css/normalize.css";
+@font-face {
+    font-family: UTM;
+    src: url(../../resources/Fonts/UTM_Avo.ttf);
+}
+
+:root {
+    --color-primary: #3a4757;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: UTM;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
