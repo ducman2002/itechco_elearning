@@ -1,6 +1,6 @@
 .wrapper {
     width: 300px;
-    min-height: 600px;
+    min-height: 1000px;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -21,5 +21,30 @@
 
     &:hover {
         background-color: rgba(0, 0, 0, 0.1);
+    }
+}
+
+.menu-item.selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.list-item-course {
+    width: 100%;
+    height: auto;
+
+    > .item-course-content-item {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--primary-color);
+        font-size: 1.5rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
     }
 }
